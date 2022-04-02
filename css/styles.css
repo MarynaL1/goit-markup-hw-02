@@ -1,0 +1,205 @@
+:root {
+  --main-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
+  --main-color: #212121;
+  --main-color-theme-dark: #ffffff;
+  --secondary-color: #757575;
+  --color-logo-first-part: #2196f3;
+  --color-logo-second-part-theme-light: #000000;
+  --color-logo-second-part-theme-dark: #ffffff;
+  --hover-focus-color: #2196f3;
+  --button-background-hover-focus-color: #188ce8;
+  --button-background-color: #2196f3;
+  --address-color: rgba(255, 255, 255, 0.6);
+  --button-background-color-portfolio: #f5f4fa;
+}
+
+body {
+  font-family: var(--main-font-family);
+  color: var(--main-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+/* ================= COMPONENTS ================= */
+.logo {
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-first-part {
+  color: var(--color-logo-first-part);
+}
+.logo-second-part-theme-light {
+  color: var(--color-logo-second-part-theme-light);
+}
+.logo-second-part-theme-dark {
+  /* color: var(--color-logo-second-part-theme-dark);*/
+}
+/* ================= COMPONENTS ================= */
+
+/* ================= HEADER ================= */
+.main-information-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.main-information-link:hover,
+.main-information-link:focus {
+  color: var(--hover-focus-color);
+}
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--hover-focus-color);
+}
+/* ================= HEADER ================= */
+
+/* ================= HERO ================= */
+.tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: var(--main-color-theme-dark);*/
+}
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--main-color-theme-dark);
+  background-color: var(--button-background-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--button-background-hover-focus-color);
+  color: var(--main-color-theme-dark);
+}
+
+/* ================= HERO ================= */
+
+/* ================= ADVANTAGES ================= */
+.advantages-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advantages-discription {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+/* ================= ADVANTAGES ================= */
+
+/* ================= ABOUT ================= */
+.about-our-business {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* ================= ABOUT ================= */
+
+/* ================= EMPLOYEES ================= */
+.our-employees {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.employees-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.employees-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* ================= EMPLOYEES ================= */
+
+/* ================= FOOTER ================= */
+.contact-info-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /*color: var(--contact-color);*/
+}
+.contact-info-link-address {
+  /*color: var(--address-color);*/
+}
+.contact-info-link:hover,
+.contact-info-link:focus {
+  color: var(--hover-focus-color);
+}
+/* ================= FOOTER ================= */
+
+/* ================= MENU ================= */
+.menu-item-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background: var(--button-background-color-portfolio);
+}
+.menu-item-btn:hover,
+.menu-item-btn:focus {
+  background-color: var(--button-background-color);
+  color: var(--main-color-theme-dark);
+}
+/* ================= MENU ================= */
+
+/* ================= PROJECTS ================= */
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* ================= PROJECTS ================= */
