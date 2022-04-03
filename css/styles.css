@@ -12,11 +12,16 @@
   --button-background-color: #2196f3;
   --address-color: rgba(255, 255, 255, 0.6);
   --button-background-color-portfolio: #f5f4fa;
+  --main-background-color: #ffffff;
+  --dark-background-color: #2F303A;
+  --secondary-light-background: #F5F4FA;
 }
 
 body {
   font-family: var(--main-font-family);
+  font-size: 14px;
   color: var(--main-color);
+  background-color: var(--main-background-color);
 }
 
 .list {
@@ -45,14 +50,13 @@ body {
   color: var(--color-logo-second-part-theme-light);
 }
 .logo-second-part-theme-dark {
-  /* color: var(--color-logo-second-part-theme-dark);*/
+  color: var(--color-logo-second-part-theme-dark);
 }
 /* ================= COMPONENTS ================= */
 
 /* ================= HEADER ================= */
 .main-information-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
@@ -61,9 +65,12 @@ body {
 .main-information-link:focus {
   color: var(--hover-focus-color);
 }
+.main-information-list .current{
+  color: var(--hover-focus-color);
+}
+
 .contact-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
@@ -75,6 +82,10 @@ body {
 /* ================= HEADER ================= */
 
 /* ================= HERO ================= */
+.hero{
+  background-color: var(--dark-background-color);
+}
+
 .tittle {
   font-weight: 900;
   font-size: 44px;
@@ -82,9 +93,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*color: var(--main-color-theme-dark);*/
+  color: var(--main-color-theme-dark);
 }
 .modal-btn {
+  font-family:inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -108,13 +120,11 @@ body {
 /* ================= ADVANTAGES ================= */
 .advantages-item {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .advantages-discription {
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
@@ -133,10 +143,16 @@ body {
 /* ================= ABOUT ================= */
 
 /* ================= EMPLOYEES ================= */
+.employees{
+  background-color: var(--secondary-light-background);
+}
+.employees-item{
+  background-color: var(--main-background-color);
+}
 .our-employees {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -157,14 +173,16 @@ body {
 /* ================= EMPLOYEES ================= */
 
 /* ================= FOOTER ================= */
+.footer{
+  background-color: var(--dark-background-color);
+}
 .contact-info-link {
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*color: var(--contact-color);*/
+  color: var(--address-color);
 }
 .contact-info-link-address {
-  /*color: var(--address-color);*/
+  color: var(--main-color-theme-dark);
 }
 .contact-info-link:hover,
 .contact-info-link:focus {
@@ -172,8 +190,9 @@ body {
 }
 /* ================= FOOTER ================= */
 
-/* ================= MENU ================= */
+/* ================= PORTFOLIO ================= */
 .menu-item-btn {
+  font-family:inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -187,9 +206,6 @@ body {
   background-color: var(--button-background-color);
   color: var(--main-color-theme-dark);
 }
-/* ================= MENU ================= */
-
-/* ================= PROJECTS ================= */
 .project-name {
   font-weight: 700;
   font-size: 18px;
@@ -202,4 +218,4 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
-/* ================= PROJECTS ================= */
+/* ================= PORTFOLIO ================= */
